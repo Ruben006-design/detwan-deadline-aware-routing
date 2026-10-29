@@ -1,0 +1,11 @@
+flow_id,source,destination,route_complete,admission,rejection_reason,route,local_delta_budgets_ms,generated_packets,delivered_packets,dropped_packets,timely_packets,late_delivered_packets,tdr_timely_over_generated,average_delay_ms
+1,"ATLAM5","ATLAng",true,ADMITTED,"","ATLAM5;ATLAng","5.0",50,50,0,50,0,1.0,8.681048387096773
+2,"ATLAM5","CHINng",true,ADMITTED,"","ATLAM5;ATLAng;IPLSng;CHINng","3.75;2.5;3.125",51,51,0,25,26,0.49019607843137253,10.06875615855512
+3,"ATLAM5","DNVRng",true,ADMITTED,"","ATLAM5;ATLAng;HSTNng;KSCYng;DNVRng","2.5;2.5;2.5;2.5",50,50,0,36,14,0.72,9.447983870967741
+4,"ATLAM5","HSTNng",true,ADMITTED,"","ATLAM5;ATLAng;HSTNng","5.625;4.375",50,50,0,0,50,0.0,13.272177419354835
+5,"ATLAM5","IPLSng",true,ADMITTED,"","ATLAM5;ATLAng;IPLSng","5.625;3.75",50,50,0,0,50,0.0,15.87419354838713
+6,"ATLAM5","KSCYng",true,ADMITTED,"","ATLAM5;ATLAng;HSTNng;KSCYng","3.75;3.75;2.5",50,6,44,0,6,0.0,11.36008064516129
+7,"ATLAM5","LOSAng",true,ADMITTED,"","ATLAM5;ATLAng;HSTNng;LOSAng","3.125;3.125;3.125",50,0,50,0,0,0.0,0.0
+8,"ATLAM5","NYCMng",true,ADMITTED,"","ATLAM5;ATLAng;WASHng;NYCMng","3.75;3.125;2.5",50,0,50,0,0,0.0,0.0
+9,"ATLAM5","STTLng",false,REJECTED,"NO_FEASIBLE_ROUTE at ATLAM5: no simple continuation can reach the destination within the remaining deadline","ATLAM5","",0,0,0,0,0,0.0,0.0
+10,"ATLAM5","WASHng",true,ADMITTED,"","ATLAM5;ATLAng;WASHng","5.625;3.125",51,1,50,0,1,0.0,10.58431924944175

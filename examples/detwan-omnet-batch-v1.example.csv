@@ -1,0 +1,16 @@
+FORMAT,DET-WAN-OMNET-BATCH,1
+TOPOLOGY_ID,DetWANNetwork-fixed-6node-v1
+TOPOLOGY_FINGERPRINT_SHA256,example-only-not-a-computed-fingerprint
+PROCESSING_DELAY_MS,0.05
+GENERATION_WINDOW_MS,10.0
+PACKET_SIZE_BYTES,1000
+UNITS,rate=Mbps;burst=decimal_bytes;deadline=ms;budget=local_delta_ms;arrival=ms_from_sim_start
+LINK,source,destination,bandwidth_mbps,propagation_delay_ms
+LINK,"source","router3",10000.0,2.0
+LINK,"router3","sink",10000.0,2.0
+LINK,"source","router4",10000.0,2.0
+LINK,"router4","sink",10000.0,2.0
+FLOW,flow_id,source,destination,rate_mbps,burst_bytes,deadline_ms,admission_status,rejection_reason,route_nodes,local_hop_budgets_ms,packet_arrivals_ms,packet_size_bytes
+FLOW,1,"source","sink",1.0,2000.0,10.0,ADMITTED,,"source;router3;sink","3.0;4.0","0;0;8.0",1000
+FLOW,2,"source","sink",0.5,1000.0,12.0,ADMITTED,,"source;router4;sink","4.0;5.0","0",1000
+FLOW,3,"source","sink",1.0,0.0,1.0,REJECTED,"NO_FEASIBLE_ROUTE","source","","",1000

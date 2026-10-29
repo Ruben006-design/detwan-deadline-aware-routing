@@ -1,0 +1,6 @@
+method,seeds,admitted_flows_mean,admission_rate_mean,generated_packets_mean,delivered_packets_mean,timely_packets_mean,late_packets_mean,dropped_packets_mean,tdr_mean,tdr_sample_sd,average_delay_ms_mean,average_delay_ms_sample_sd
+DetWAN_MAPPO,3,9.0,0.90,452.0,258.0,88.00,170.00,194.0,0.194690,0.044413,11.469157,0.020110
+ShortestPath_CEDF,3,9.0,0.90,452.0,258.0,72.00,186.00,194.0,0.159292,0.000000,11.457448,0.000000
+MinHop_CEDF,3,9.0,0.90,452.0,258.0,72.00,186.00,194.0,0.159292,0.000000,11.457448,0.000000
+RandomFeasible_CEDF,3,9.0,0.90,452.0,258.0,110.33,147.67,194.0,0.244100,0.053113,11.469939,0.022042
+DFFR_CEDF,3,9.0,0.90,452.0,258.0,75.00,183.00,194.0,0.165929,0.000000,11.456979,0.000000

@@ -1,0 +1,51 @@
+method,seed,flow_id,source,destination,route_complete,admitted,rejection_reason,route,budgets,generated_packets,delivered_packets,timely_packets,late_packets,dropped_packets,tdr
+DetWAN_MAPPO,2024,1,"ATLAM5","ATLAng",true,ADMITTED,"","ATLAM5 -> ATLAng","[4.38]",50,50,1,49,0,0.020000
+ShortestPath_CEDF,2024,1,"ATLAM5","ATLAng",true,ADMITTED,"","ATLAM5 -> ATLAng","[10.00]",50,50,0,50,0,0.000000
+MinHop_CEDF,2024,1,"ATLAM5","ATLAng",true,ADMITTED,"","ATLAM5 -> ATLAng","[10.00]",50,50,0,50,0,0.000000
+RandomFeasible_CEDF,2024,1,"ATLAM5","ATLAng",true,ADMITTED,"","ATLAM5 -> ATLAng","[3.13]",50,50,50,0,0,1.000000
+DFFR_CEDF,2024,1,"ATLAM5","ATLAng",true,ADMITTED,"","ATLAM5 -> ATLAng","[2.50]",50,50,50,0,0,1.000000
+DetWAN_MAPPO,2024,2,"ATLAM5","CHINng",true,ADMITTED,"","ATLAM5 -> ATLAng -> IPLSng -> CHINng","[3.13, 3.75, 3.13]",51,51,25,26,0,0.490196
+ShortestPath_CEDF,2024,2,"ATLAM5","CHINng",true,ADMITTED,"","ATLAM5 -> ATLAng -> IPLSng -> CHINng","[3.33, 3.33, 3.33]",51,51,25,26,0,0.490196
+MinHop_CEDF,2024,2,"ATLAM5","CHINng",true,ADMITTED,"","ATLAM5 -> ATLAng -> IPLSng -> CHINng","[3.33, 3.33, 3.33]",51,51,25,26,0,0.490196
+RandomFeasible_CEDF,2024,2,"ATLAM5","CHINng",true,ADMITTED,"","ATLAM5 -> ATLAng -> IPLSng -> CHINng","[3.75, 3.75, 2.50]",51,51,0,51,0,0.000000
+DFFR_CEDF,2024,2,"ATLAM5","CHINng",true,ADMITTED,"","ATLAM5 -> ATLAng -> IPLSng -> CHINng","[2.50, 2.50, 2.50]",51,51,25,26,0,0.490196
+DetWAN_MAPPO,2024,3,"ATLAM5","DNVRng",true,ADMITTED,"","ATLAM5 -> ATLAng -> HSTNng -> KSCYng -> DNVRng","[2.50, 2.50, 2.50, 2.50]",50,50,36,14,0,0.720000
+ShortestPath_CEDF,2024,3,"ATLAM5","DNVRng",true,ADMITTED,"","ATLAM5 -> ATLAng -> HSTNng -> KSCYng -> DNVRng","[2.50, 2.50, 2.50, 2.50]",50,50,36,14,0,0.720000
+MinHop_CEDF,2024,3,"ATLAM5","DNVRng",true,ADMITTED,"","ATLAM5 -> ATLAng -> HSTNng -> KSCYng -> DNVRng","[2.50, 2.50, 2.50, 2.50]",50,50,36,14,0,0.720000
+RandomFeasible_CEDF,2024,3,"ATLAM5","DNVRng",true,ADMITTED,"","ATLAM5 -> ATLAng -> HSTNng -> KSCYng -> DNVRng","[2.50, 2.50, 2.50, 2.50]",50,50,36,14,0,0.720000
+DFFR_CEDF,2024,3,"ATLAM5","DNVRng",true,ADMITTED,"","ATLAM5 -> ATLAng -> HSTNng -> KSCYng -> DNVRng","[2.50, 2.50, 2.50, 2.50]",50,50,0,50,0,0.000000
+DetWAN_MAPPO,2024,4,"ATLAM5","HSTNng",true,ADMITTED,"","ATLAM5 -> ATLAng -> HSTNng","[3.13, 2.50]",50,50,17,33,0,0.340000
+ShortestPath_CEDF,2024,4,"ATLAM5","HSTNng",true,ADMITTED,"","ATLAM5 -> ATLAng -> HSTNng","[5.00, 5.00]",50,50,11,39,0,0.220000
+MinHop_CEDF,2024,4,"ATLAM5","HSTNng",true,ADMITTED,"","ATLAM5 -> ATLAng -> HSTNng","[5.00, 5.00]",50,50,11,39,0,0.220000
+RandomFeasible_CEDF,2024,4,"ATLAM5","HSTNng",true,ADMITTED,"","ATLAM5 -> ATLAng -> HSTNng","[6.25, 3.13]",50,50,0,50,0,0.000000
+DFFR_CEDF,2024,4,"ATLAM5","HSTNng",true,ADMITTED,"","ATLAM5 -> ATLAng -> HSTNng","[2.50, 2.50]",50,50,0,50,0,0.000000
+DetWAN_MAPPO,2024,5,"ATLAM5","IPLSng",true,ADMITTED,"","ATLAM5 -> ATLAng -> IPLSng","[6.88, 3.13]",50,50,0,50,0,0.000000
+ShortestPath_CEDF,2024,5,"ATLAM5","IPLSng",true,ADMITTED,"","ATLAM5 -> ATLAng -> IPLSng","[5.00, 5.00]",50,50,0,50,0,0.000000
+MinHop_CEDF,2024,5,"ATLAM5","IPLSng",true,ADMITTED,"","ATLAM5 -> ATLAng -> IPLSng","[5.00, 5.00]",50,50,0,50,0,0.000000
+RandomFeasible_CEDF,2024,5,"ATLAM5","IPLSng",true,ADMITTED,"","ATLAM5 -> ATLAng -> IPLSng","[6.88, 2.50]",50,50,0,50,0,0.000000
+DFFR_CEDF,2024,5,"ATLAM5","IPLSng",true,ADMITTED,"","ATLAM5 -> ATLAng -> IPLSng","[2.50, 2.50]",50,50,0,50,0,0.000000
+DetWAN_MAPPO,2024,6,"ATLAM5","KSCYng",true,ADMITTED,"","ATLAM5 -> ATLAng -> IPLSng -> KSCYng","[3.13, 3.75, 3.13]",50,6,0,6,44,0.000000
+ShortestPath_CEDF,2024,6,"ATLAM5","KSCYng",true,ADMITTED,"","ATLAM5 -> ATLAng -> HSTNng -> KSCYng","[3.33, 3.33, 3.33]",50,6,0,6,44,0.000000
+MinHop_CEDF,2024,6,"ATLAM5","KSCYng",true,ADMITTED,"","ATLAM5 -> ATLAng -> HSTNng -> KSCYng","[3.33, 3.33, 3.33]",50,6,0,6,44,0.000000
+RandomFeasible_CEDF,2024,6,"ATLAM5","KSCYng",true,ADMITTED,"","ATLAM5 -> ATLAng -> HSTNng -> KSCYng","[3.13, 4.38, 2.50]",50,6,0,6,44,0.000000
+DFFR_CEDF,2024,6,"ATLAM5","KSCYng",true,ADMITTED,"","ATLAM5 -> ATLAng -> HSTNng -> KSCYng","[2.50, 2.50, 2.50]",50,6,0,6,44,0.000000
+DetWAN_MAPPO,2024,7,"ATLAM5","LOSAng",true,ADMITTED,"","ATLAM5 -> ATLAng -> HSTNng -> LOSAng","[3.13, 4.38, 2.50]",50,0,0,0,50,0.000000
+ShortestPath_CEDF,2024,7,"ATLAM5","LOSAng",true,ADMITTED,"","ATLAM5 -> ATLAng -> HSTNng -> LOSAng","[3.33, 3.33, 3.33]",50,0,0,0,50,0.000000
+MinHop_CEDF,2024,7,"ATLAM5","LOSAng",true,ADMITTED,"","ATLAM5 -> ATLAng -> HSTNng -> LOSAng","[3.33, 3.33, 3.33]",50,0,0,0,50,0.000000
+RandomFeasible_CEDF,2024,7,"ATLAM5","LOSAng",true,ADMITTED,"","ATLAM5 -> ATLAng -> HSTNng -> LOSAng","[3.75, 3.75, 2.50]",50,0,0,0,50,0.000000
+DFFR_CEDF,2024,7,"ATLAM5","LOSAng",true,ADMITTED,"","ATLAM5 -> ATLAng -> HSTNng -> LOSAng","[2.50, 2.50, 2.50]",50,0,0,0,50,0.000000
+DetWAN_MAPPO,2024,8,"ATLAM5","NYCMng",true,ADMITTED,"","ATLAM5 -> ATLAng -> WASHng -> NYCMng","[3.13, 2.50, 3.75]",50,0,0,0,50,0.000000
+ShortestPath_CEDF,2024,8,"ATLAM5","NYCMng",true,ADMITTED,"","ATLAM5 -> ATLAng -> WASHng -> NYCMng","[3.33, 3.33, 3.33]",50,0,0,0,50,0.000000
+MinHop_CEDF,2024,8,"ATLAM5","NYCMng",true,ADMITTED,"","ATLAM5 -> ATLAng -> WASHng -> NYCMng","[3.33, 3.33, 3.33]",50,0,0,0,50,0.000000
+RandomFeasible_CEDF,2024,8,"ATLAM5","NYCMng",true,ADMITTED,"","ATLAM5 -> ATLAng -> WASHng -> NYCMng","[3.75, 3.75, 2.50]",50,0,0,0,50,0.000000
+DFFR_CEDF,2024,8,"ATLAM5","NYCMng",true,ADMITTED,"","ATLAM5 -> ATLAng -> WASHng -> NYCMng","[2.50, 2.50, 2.50]",50,0,0,0,50,0.000000
+DetWAN_MAPPO,2024,9,"ATLAM5","STTLng",false,REJECTED,"NO_FEASIBLE_ROUTE at ATLAM5: no simple continuation can reach the destination within the remaining deadline","","[]",0,0,0,0,0,0.000000
+ShortestPath_CEDF,2024,9,"ATLAM5","STTLng",true,REJECTED,"HOP_DEADLINE_TOO_SMALL on ATLAM5 -> ATLAng: budget 2.000000 ms <= processing+propagation 2.050000 ms","ATLAM5 -> ATLAng -> HSTNng -> KSCYng -> DNVRng -> STTLng","[2.00, 2.00, 2.00, 2.00, 2.00]",0,0,0,0,0,0.000000
+MinHop_CEDF,2024,9,"ATLAM5","STTLng",true,REJECTED,"HOP_DEADLINE_TOO_SMALL on ATLAM5 -> ATLAng: budget 2.000000 ms <= processing+propagation 2.050000 ms","ATLAM5 -> ATLAng -> HSTNng -> KSCYng -> DNVRng -> STTLng","[2.00, 2.00, 2.00, 2.00, 2.00]",0,0,0,0,0,0.000000
+RandomFeasible_CEDF,2024,9,"ATLAM5","STTLng",false,REJECTED,"No feasible masked action reached destination","","[]",0,0,0,0,0,0.000000
+DFFR_CEDF,2024,9,"ATLAM5","STTLng",false,REJECTED,"NO_FEASIBLE_ROUTE: no complete route with a feasible discrete budget allocation","","[]",0,0,0,0,0,0.000000
+DetWAN_MAPPO,2024,10,"ATLAM5","WASHng",true,ADMITTED,"","ATLAM5 -> ATLAng -> WASHng","[6.88, 2.50]",51,1,0,1,50,0.000000
+ShortestPath_CEDF,2024,10,"ATLAM5","WASHng",true,ADMITTED,"","ATLAM5 -> ATLAng -> WASHng","[5.00, 5.00]",51,1,0,1,50,0.000000
+MinHop_CEDF,2024,10,"ATLAM5","WASHng",true,ADMITTED,"","ATLAM5 -> ATLAng -> WASHng","[5.00, 5.00]",51,1,0,1,50,0.000000
+RandomFeasible_CEDF,2024,10,"ATLAM5","WASHng",true,ADMITTED,"","ATLAM5 -> ATLAng -> WASHng","[3.75, 2.50]",51,1,0,1,50,0.000000
+DFFR_CEDF,2024,10,"ATLAM5","WASHng",true,ADMITTED,"","ATLAM5 -> ATLAng -> WASHng","[2.50, 2.50]",51,1,0,1,50,0.000000

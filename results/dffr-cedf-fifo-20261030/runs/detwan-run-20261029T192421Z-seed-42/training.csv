@@ -1,0 +1,2 @@
+episode,requests,transitions,minibatches,actor_updates,critic_updates,inactive_actor_samples_skipped,generated_packets,delivered_packets,timely_packets,late_packets,dropped_packets,tdr,average_delay_ms
+1,10,120,12,4,12,39,452,258,74,184,194,0.163717,11.492378

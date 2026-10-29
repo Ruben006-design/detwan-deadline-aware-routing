@@ -1,0 +1,12 @@
+metric,value,denominator_or_definition
+flows_considered,10,evaluation requests
+route_complete,9,flows considered
+admitted_flows,9,flows considered; route complete and qualified
+rejected_flows,1,flows considered
+generated_packets,452,admitted flows only
+delivered_packets,258,generated packets
+dropped_packets,194,generated packets
+timely_packets,74,generated packets
+late_delivered_packets,184,delivered packets
+packet_tdr,0.16371681415929204,timely packets / generated packets
+average_e2e_delay_ms,11.492378392524175,delivered packets including late

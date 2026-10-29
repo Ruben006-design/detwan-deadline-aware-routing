@@ -1,0 +1,9 @@
+DetWAN train-evaluate-export-simulate report
+--flows 10 --seeds 42,101,2024 --budget-levels 16 --results-root results/dffr-cedf-fifo-20261030/runs
+evaluation_seed=4354685564936845312 (sampled final-policy actions; no training updates)
+admitted_flows=9/10
+rejections={NO_FEASIBLE_ROUTE at ATLAM5: no simple continuation can reach the destination within the remaining deadline=1}
+packets generated/delivered/dropped/timely/late=452/258/194/74/184
+packet_tdr(timely/generated)=0.16371681415929204
+average_e2e_delay_ms(delivered_including_late)=11.492378392524175
+batch_file=C:\Users\ruben\DetWAN_mini_project\results\dffr-cedf-fifo-20261030\runs\detwan-run-20261029T192421Z-seed-42\abilene-seed-42.dwbatch.csv

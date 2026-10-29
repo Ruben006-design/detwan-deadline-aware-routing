@@ -1,0 +1,6 @@
+method,seed,requested_flows,admitted_flows,admitted_flow_ids,rejected_flow_ids,generated_packets,delivered_packets,timely_packets,late_packets,dropped_packets,tdr,average_delay_ms
+DetWAN_MAPPO,2024,10,9,"[1, 2, 3, 4, 5, 6, 7, 8, 10]","[9]",452,258,79,179,194,0.174779,11.457645
+ShortestPath_CEDF,2024,10,9,"[1, 2, 3, 4, 5, 6, 7, 8, 10]","[9]",452,258,72,186,194,0.159292,11.457448
+MinHop_CEDF,2024,10,9,"[1, 2, 3, 4, 5, 6, 7, 8, 10]","[9]",452,258,72,186,194,0.159292,11.457448
+RandomFeasible_CEDF,2024,10,9,"[1, 2, 3, 4, 5, 6, 7, 8, 10]","[9]",452,258,86,172,194,0.190265,11.457448
+DFFR_CEDF,2024,10,9,"[1, 2, 3, 4, 5, 6, 7, 8, 10]","[9]",452,258,75,183,194,0.165929,11.456979

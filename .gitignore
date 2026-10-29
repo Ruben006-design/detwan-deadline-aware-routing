@@ -1,0 +1,37 @@
+# Compiled Java classes and build output
+out/
+out-*/
+bin/
+*.class
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.iml
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# OMNeT++ simulator directory and project backups
+DetWAN_OMNeT_Test_Working/
+backup-*/
+
+# Large dataset archives and raw 6-month traffic matrices (48,000+ files / 388 MB)
+# The primary benchmark matrix is tracked under dataset/directed-abilene-zhang-5min-over-6months-ALL-native/
+dataset/*.tgz
+dataset/directed-abilene-zhang-5min-over-6months-ALL-native/*
+!dataset/directed-abilene-zhang-5min-over-6months-ALL-native/demandMatrix-abilene-zhang-5min-20040301-0145.txt
+
+# Stale / legacy runs (keeping only validated FIFO experiment)
+results/*
+!results/dffr-cedf-fifo-20261030/
+results/dffr-cedf-fifo-20261030/graph-classes/
+
+# Temporary test classes and audit workbooks
+*.xlsx
+build_audit_workbook.py
+Test*.java
+RenderUI.*
+CaptureScreenshots.*
+test_render*.png
